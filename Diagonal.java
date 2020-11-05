@@ -15,6 +15,7 @@ public class Diagonal {
 		}
 		double sum = sumMajorDiagonal(matrix);
 		System.out.println("Sum of the element in the major diagonal is " + sum);
+		input.close();
 	}
 	
 	public static double sumMajorDiagonal(double[][] m){
