@@ -8,6 +8,7 @@ public class Matrix {
 		Scanner input = new Scanner(System.in);
 		int n = input.nextInt();
 		printMatrix(n);
+		input.close();
 
 	}
 	public static void printMatrix(int n){
