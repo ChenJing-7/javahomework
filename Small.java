@@ -12,6 +12,7 @@ public class Small {
 		}
 		int index = indexOfSmallestElement(num);
 		System.out.println("最小元素的下标为：" + index + "，该下标值为：" + num[index]);
+		input.close();
 	}
 	
 	public static int indexOfSmallestElement(int[] array){
