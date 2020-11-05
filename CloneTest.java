@@ -29,7 +29,7 @@ class Course implements Cloneable {
 	public void addStudent(String student){
 		students[numberOfStudents] = student; 
 		numberOfStudents++;
-}
+	}
 	public String[] getStudents() {
 		return students; 
 	}
