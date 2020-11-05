@@ -7,6 +7,7 @@ public class Reverse {
 		Scanner input = new Scanner(System.in);
 		int num = input.nextInt();
 		reverse(num);	
+		input.close();
 	}
 	public static void reverse(int number){
 		
